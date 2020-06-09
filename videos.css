@@ -1,0 +1,138 @@
+.filters{
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: #673AB7;
+  position: fixed;
+
+  height: 80%;
+  float: right;
+  margin-top: 100px;
+
+border-radius: 5px;
+  width: 29%;
+  right: 0px;
+}
+.filterbutton{
+  border-style: solid;
+  border-width: 3px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-color: #ffffff;
+  color: #ffffff;
+  background: #673AB7;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+
+
+  border-radius: 10px;
+
+}
+.filters p{
+  text-align: center;
+}
+.filters select{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #673AB7;
+  background: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-align: center;
+
+
+  border-radius: 5px;
+
+}
+.Uploaddiv{
+  width: 100%;
+  height: 2px;
+  background-color: #607D8B;
+  margin-top: 20px;
+}
+.uploadbutton{
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #673AB7;
+  border-width: 3px;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.videolist{
+  margin-top: 50px;
+  overflow-y: scroll;
+  float: left;
+height: auto;
+width: 70%;
+}
+@media screen and (max-width : 500px) {
+  .filters{
+    visibility: hidden;
+  }
+}
+.videoitem{
+  background: #FFFFFF;
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #673AB7;
+  border-width: 5px;
+  position: relative;
+ display: flex;
+ align-items:center;
+
+}
+.videoitem img{
+  float: right;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  height: 80px;
+  width: 110px;
+
+  margin: auto;
+  position: absolute;
+}
+.videoitem p{
+  float: right;
+position: absolute;
+text-align: center;
+width: auto;
+right: 130px;
+
+}
+.videotitle{
+  font-size: 25px;
+}
+
+.watchbutton{
+  float: left;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #673AB7;
+  background: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+
+
+  border-radius: 10px;
+}
+ button:hover{
+  background-color: #ddd;
+}
